@@ -7,7 +7,7 @@ var ScaffoldBuilder = (function (m, $) {
 	m.onloadset = false;
 	m.loadcheck = false;
 	m.loadcount = 0;
-	m.enablefavourites = true;
+	m.enablefavourites = false;
 
 	m.haspastedoptions = false;
 
