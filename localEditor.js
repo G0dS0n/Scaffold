@@ -490,7 +490,7 @@ var ScaffoldBuilder = (function (m, $) {
 				id: "convert",
 				clickAction: function(e) {
 					ScaffoldBuilder.destroyContextMenu();
-					ScaffoldBuilder.showModal('Convert to Scaffold Component', '<p>You are about to convert this element to a Scaffold component. This will allow you acccess to the default actions available such as deleting, moving up or down, etc.</p><p>Are you sure you want to proceed?</p>', 'Continue', function(id) { 
+					ScaffoldBuilder.showModal('Convert to Scaffold Component dsfdf s', '<p>You are about to convert this element to a Scaffold component. This will allow you acccess to the default actions available such as deleting, moving up or down, etc.</p><p>Are you sure you want to proceed?</p>', 'Continue', function(id) { 
 						ScaffoldBuilder.convertToScaffold(id, ScaffoldBuilder.options.defaultactions);
 					}, e.data.id.id );
 				}
