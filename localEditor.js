@@ -1,4 +1,3 @@
-console.log("dfdfd");
 var ScaffoldBuilder = (function (m, $) {
 	m.editor;
 
