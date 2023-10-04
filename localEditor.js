@@ -1,4 +1,5 @@
 var ScaffoldBuilder = (function (m, $) {
+	console.log("dfdf");
 	m.editor;
 
 	m.modules = {{{modules_list}}};{{{component_menu}}}
@@ -544,7 +545,7 @@ var ScaffoldBuilder = (function (m, $) {
 			},
 			'rce-embed': {
 				icon: "icon-attach-media",
-				label: "Insert mediasd",
+				label: "Insert media",
 				id: "rce-embed",
 				clickAction: function(e) {
 					ScaffoldBuilder.openEmbed();
