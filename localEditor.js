@@ -544,7 +544,7 @@ var ScaffoldBuilder = (function (m, $) {
 			},
 			'rce-embed': {
 				icon: "icon-attach-media",
-				label: "Insert media",
+				label: "Insert mediasd",
 				id: "rce-embed",
 				clickAction: function(e) {
 					ScaffoldBuilder.openEmbed();
