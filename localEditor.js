@@ -444,7 +444,7 @@ var ScaffoldBuilder = (function (m, $) {
 			},
 			insertafter: {
 				icon: "icon-add",
-				label: "Insert after",
+				label: "Insert afterr",
 				id: "insertafter",
 				clickAction: function(e) {
 					if (e.currentTarget.innerText.includes("Insert after")){
