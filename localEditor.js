@@ -1,5 +1,4 @@
 var ScaffoldBuilder = (function (m, $) {
-	console.log("dfdf");
 	m.editor;
 
 	m.modules = {{{modules_list}}};{{{component_menu}}}
