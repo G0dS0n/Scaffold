@@ -1,7 +1,9 @@
-var link = document.querySelector(".customAlertLink");
-        if (link) {
-            link.addEventListener("click", function(event) {
-                event.preventDefault();  // Prevent the default action (navigation) of the link
-                alert("Alerting");
-            });
-        }
+
+    var linkElement = document.querySelector(".customAlertLink");
+    if (linkElement) {
+        linkElement.addEventListener("click", function(event) {
+            event.preventDefault();
+            alert('Hello from GitHub-hosted JS!');
+        });
+    }
+
