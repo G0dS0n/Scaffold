@@ -3,6 +3,6 @@
     if (linkElement) {
         linkElement.addEventListener("click", function(event) {
             event.preventDefault();
-            alert('Hello from GitHub-hosted JS!');
+            alert('Hello from GitHub-hosted JS after re commiting!');
         });
     }
