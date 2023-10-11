@@ -1,3 +1,4 @@
+console.log("Script loaded!");
 document.addEventListener("DOMContentLoaded", function() {
     var link = document.querySelector(".customAlertLink");
     
