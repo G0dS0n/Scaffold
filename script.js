@@ -1,8 +1,10 @@
-
-    var linkElement = document.querySelector(".customAlertLink");
-    if (linkElement) {
-        linkElement.addEventListener("click", function(event) {
+document.addEventListener("DOMContentLoaded", function() {
+    var link = document.querySelector(".customAlertLink");
+    
+    if (link) {
+        link.addEventListener("click", function(event) {
             event.preventDefault();
-            alert('Hello from GitHub-hosted JS after re commiting!');
+            alert("This alert is from the script hosted on GitHub!");
         });
     }
+});
